@@ -17,7 +17,7 @@ case $choice in
 
 			    echo "You don't have the tool needed to create a virtual environment. For that, use \"pip install virtualenv\""
           else               
-		              #if installed create a project folder with a virtual env and a starter file for the project.
+		              #if installed create a project folder with a virtual env, a README for additional guidance and a starter file for the project.
 			    mkdir ~/"$name"_project
 		            cd ~/"$name"_project
                             touch "$name"_starter_file.py README
